@@ -1,1 +1,1 @@
-![Strategy](./Strategy.JPG)
+![](./Strategy.JPG)
