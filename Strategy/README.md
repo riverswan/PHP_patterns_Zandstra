@@ -1,2 +1,1 @@
-![Strategy](/Capture.jpg)
-Format: ![Alt Text](capture)
+![Strategy](./Capture.JPG)
