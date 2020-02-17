@@ -1,5 +1,4 @@
 <?php
-spl_autoload_register();
 
 abstract class Lesson {
 	private $duration;
@@ -26,17 +25,4 @@ abstract class Lesson {
 	}
 }
 
-class Lecture extends Lesson {
-	public function __construct() {
-		echo "Implementation of Lecture class";
-	}
 
-}
-
-
-class Seminar extends Lesson {
-	public function __construct() {
-		echo "Implementation of Lecture class";
-	}
-
-}
