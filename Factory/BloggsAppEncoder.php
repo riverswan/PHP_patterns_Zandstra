@@ -1,8 +1,8 @@
 <?php
+namespace app\Factory;
 
 class BloggsAppEncoder extends AppEncoder {
-
 	public function encode(): string {
-		return "Coding data in BloggsCal format \n";
+		return "data is encoded with BloggsAppEncoder \n";
 	}
 }

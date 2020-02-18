@@ -1,5 +1,6 @@
 <?php
-spl_autoload_register();
+
+namespace app\Factory;
 
 class BloggsCommsManager extends CommsManager {
 

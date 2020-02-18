@@ -1,6 +1,8 @@
 <?php
-spl_autoload_register();
 
+use app\Factory\BloggsCommsManager;
+
+require_once "../vendor/autoload.php";
 $manager = new BloggsCommsManager();
 echo $manager->getHeaderText();
 echo $manager->getAppEncoder()->encode();

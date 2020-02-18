@@ -1,6 +1,6 @@
 <?php
 use app\Abstract_Factory\BloggsCommsManager;
-require "./vendor/autoload.php";
+require "../vendor/autoload.php";
 
 $manager = new BloggsCommsManager();
 //echo $manager->getHeaderText();
