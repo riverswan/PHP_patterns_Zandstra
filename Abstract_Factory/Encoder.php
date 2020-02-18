@@ -1,5 +1,5 @@
 <?php
-namespace PHP_patterns_Zandstra\Abstract_Factory;
+namespace my;
 
 interface Encoder {
 	public function encode(): string;

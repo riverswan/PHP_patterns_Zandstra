@@ -1,9 +1,11 @@
 <?php
-namespace PHP_patterns_Zandstra\Abstract_Factory;
-use AbstractFactory\CommsManager;
-//spl_autoload_register();
+namespace app\Abstract_Factory;
 
-class BloggsCommsManager extends CommsManager {
+class BloggsCommsManager  {
+	public function __construct() {
+		echo "BloggsCommsManager";
+	}
+
 
 	public function getHeaderText(): string {
 		return "BlogsCall upper title \n";
@@ -13,8 +15,8 @@ class BloggsCommsManager extends CommsManager {
 		return "BlogsCall footer title \n";
 	}
 
-
-	public function make(int $flag): Encoder {
+//
+//	public function make(int $flag): Encoder {
 //		switch ($flag) {
 //			case self::APPT :
 //				return new BloggsAppEncoder();
@@ -23,5 +25,5 @@ class BloggsCommsManager extends CommsManager {
 //			case self::CONTACT :
 //				return new BloggsContactEncoder();
 //		}
-	}
+//	}
 }

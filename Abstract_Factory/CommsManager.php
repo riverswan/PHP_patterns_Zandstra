@@ -1,7 +1,6 @@
 <?php
+namespace my;
 
-namespace PHP_patterns_Zandstra\Abstract_Factory;
-//spl_autoload_register();
 
 abstract class CommsManager {
 

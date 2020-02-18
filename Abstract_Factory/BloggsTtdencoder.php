@@ -1,8 +1,8 @@
 <?php
 
 
-namespace abstract_factory;
-
+namespace my;
+require_once "TtdEncoder.php";
 
 class BloggsTtdencoder extends TtdEncoder {
 	public function encode(): string {

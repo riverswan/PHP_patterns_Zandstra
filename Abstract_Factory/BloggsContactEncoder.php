@@ -1,8 +1,8 @@
 <?php
 
 
-namespace abstract_factory;
-
+namespace my;
+require_once "ContactEncoder.php";
 
 class BloggsContactEncoder extends ContactEncoder {
 

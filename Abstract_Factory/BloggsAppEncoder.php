@@ -1,6 +1,7 @@
 <?php
 
-namespace abstract_factory;
+namespace my;
+require_once "AppEncoder.php";
 
 class BloggsAppEncoder extends AppEncoder {
 	public function encode(): string {

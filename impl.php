@@ -1,5 +1,6 @@
 <?php
-namespace PHP_patterns_Zandstra\Abstract_Factory;
+use app\Abstract_Factory\BloggsCommsManager;
+require "./vendor/autoload.php";
 
 $manager = new BloggsCommsManager();
 //echo $manager->getHeaderText();
