@@ -1,9 +1,8 @@
 <?php
 
+namespace app\Abstract_Factory;
 
-namespace my;
-require_once "Encoder.php";
 
 abstract class TtdEncoder implements Encoder {
 	abstract public function encode(): string;
-}
+}	

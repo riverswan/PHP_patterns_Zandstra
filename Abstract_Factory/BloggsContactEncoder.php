@@ -1,8 +1,7 @@
 <?php
 
 
-namespace my;
-require_once "ContactEncoder.php";
+namespace app\Abstract_Factory;
 
 class BloggsContactEncoder extends ContactEncoder {
 

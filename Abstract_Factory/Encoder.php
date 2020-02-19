@@ -1,5 +1,5 @@
 <?php
-namespace my;
+namespace app\Abstract_Factory;
 
 interface Encoder {
 	public function encode(): string;

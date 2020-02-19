@@ -1,7 +1,7 @@
 <?php
 namespace app\Abstract_Factory;
 
-class BloggsCommsManager  {
+class BloggsCommsManager extends CommsManager {
 	public function __construct() {
 		echo "BloggsCommsManager";
 	}
@@ -15,15 +15,15 @@ class BloggsCommsManager  {
 		return "BlogsCall footer title \n";
 	}
 
-//
-//	public function make(int $flag): Encoder {
-//		switch ($flag) {
-//			case self::APPT :
-//				return new BloggsAppEncoder();
-//			case self::TTD :
-//				return new BloggsTtdencoder();
-//			case self::CONTACT :
-//				return new BloggsContactEncoder();
-//		}
-//	}
+
+	public function make(int $flag): Encoder {
+		switch ($flag) {
+			case self::APPT :
+				return new BloggsAppEncoder();
+			case self::TTD :
+				return new BloggsTtdencoder();
+			case self::CONTACT :
+				return new BloggsContactEncoder();
+		}
+	}
 }

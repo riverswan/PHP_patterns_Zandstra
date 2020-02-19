@@ -1,5 +1,5 @@
 <?php
-namespace my;
+namespace app\Abstract_Factory;
 
 
 abstract class CommsManager {
