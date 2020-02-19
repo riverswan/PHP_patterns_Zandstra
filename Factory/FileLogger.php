@@ -7,6 +7,7 @@ class FileLogger implements Logger {
 
 	public function __construct($filepath) {
 		$this->filepath = $filepath;
+		echo "class " . __CLASS__ . " created\n";
 	}
 
 	public function log($message): void {
