@@ -14,5 +14,8 @@
       "Services\\": "services",
       "app\\": ""
     }
+  },
+  "require": {
+    "ext-pdo": "*"
   }
 }
