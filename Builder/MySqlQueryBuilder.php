@@ -14,7 +14,7 @@ class MySqlQueryBuilder implements SqlQueryBuilder {
 	public function select($dbTable, array $args): SqlQueryBuilder {
 		$this->init();
 
-		$this->queryClass->base = "SELECT " . implode(",", $args) . "  FROM " . $dbTable;
+		$this->queryClass->base = "SELECT " . implode(",", $args) . " FROM " . $dbTable;
 
 		return $this;
 

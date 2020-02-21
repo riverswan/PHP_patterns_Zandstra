@@ -6,4 +6,4 @@ $a = new MySqlQueryBuilder();
 $a->select("Table", ["content"])->where("field", "value")->limit(0, 10);
 $query = $a->getSql();
 
-print_r($query);
+echo($query);
