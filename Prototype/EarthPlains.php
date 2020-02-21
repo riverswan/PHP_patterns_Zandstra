@@ -4,16 +4,13 @@
 namespace app\Prototype;
 
 
-class EarthPlains implements Plains {
-	private $title;
-
+class EarthPlains extends Plains {
 	public function __construct() {
 		$this->title = "Earth plains";
+		echo $this->getTitle() . "\n";
 	}
 
 	public function __clone() {
 		$this->title .= " clone";
 	}
-
-
 }

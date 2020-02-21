@@ -4,16 +4,13 @@
 namespace app\Prototype;
 
 
-class MarsPlains implements Plains {
-	private $title;
-
+class MarsPlains extends Plains {
 	public function __construct() {
 		$this->title = "Mars plains";
+		echo $this->getTitle() . "\n";
 	}
 
 	public function __clone() {
 		$this->title .= " clone";
 	}
-
-
 }

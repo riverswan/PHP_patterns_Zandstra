@@ -4,6 +4,10 @@
 namespace app\Prototype;
 
 
-interface Plains {
+abstract class Plains {
+	protected $title;
 
+	public function getTitle(): string {
+		return $this->title;
+	}
 }

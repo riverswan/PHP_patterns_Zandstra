@@ -4,6 +4,10 @@
 namespace app\Prototype;
 
 
-interface Forest {
+abstract class Forest {
+	protected $title;
 
+	public function getTitle(): string {
+		return $this->title;
+	}
 }

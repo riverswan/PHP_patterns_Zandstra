@@ -4,16 +4,13 @@
 namespace app\Prototype;
 
 
-class MarsSea implements Sea {
-	private $title;
-
+class MarsSea extends Sea {
 	public function __construct() {
 		$this->title = "Mars sea";
+		echo $this->getTitle() . "\n";
 	}
 
 	public function __clone() {
 		$this->title .= " clone";
 	}
-
-
 }

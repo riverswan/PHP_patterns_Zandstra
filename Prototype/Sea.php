@@ -4,6 +4,10 @@
 namespace app\Prototype;
 
 
-interface Sea {
+abstract class Sea {
+	protected $title;
 
+	public function getTitle(): string {
+		return $this->title;
+	}
 }

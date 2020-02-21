@@ -4,16 +4,13 @@
 namespace app\Prototype;
 
 
-class EarthForest implements Forest {
-	private $title;
-
+class EarthForest extends Forest {
 	public function __construct() {
 		$this->title = "Earth forest";
+		echo $this->getTitle() . "\n";
 	}
 
 	public function __clone() {
 		$this->title .= " clone";
 	}
-
-
 }
