@@ -7,15 +7,15 @@ namespace app\Adapter;
 class PaperBook implements BookInterface {
 
 	public function open() {
-		echo __CLASS__ . "page Opened";
+		echo __CLASS__ . " page Opened \n";
 	}
 
 	public function turnPage() {
-		echo __CLASS__ . "page turned";
+		echo __CLASS__ . " page turned \n";
 	}
 
 
 	public function getPage() {
-		echo __CLASS__ . "page get";
+		echo __CLASS__ . " page get \n";
 	}
 }
