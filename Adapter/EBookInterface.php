@@ -4,10 +4,10 @@
 namespace app\Adapter;
 
 
-interface BookInterface {
-	public function open();
-
-	public function turnPage();
+interface EBookInterface {
+	public function pressNext();
 
 	public function getPage();
+
+	public function unlock();
 }
