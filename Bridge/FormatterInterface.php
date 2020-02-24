@@ -5,5 +5,5 @@ namespace app\Bridge;
 
 
 interface FormatterInterface {
-
+	public function format(string $string): string;
 }
