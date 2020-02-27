@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace app\CoR;
+namespace app\Chain_of_Responsibility;
 require_once "../vendor/autoload.php";
 
 $server = new Server();
