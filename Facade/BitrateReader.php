@@ -13,7 +13,7 @@ class BitrateReader {
 		echo "BitrateReader created \n";
 	}
 
-	public static function read($filename, $sourceCodec) {
+	public function read($filename, $sourceCodec) {
 		return "reading from buffer \n";
 	}
 

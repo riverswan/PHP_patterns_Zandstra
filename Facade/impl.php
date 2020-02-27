@@ -3,6 +3,6 @@ namespace app\Facade;
 require_once "../vendor/autoload.php";
 
 $converter = new VideoConverter();
-$converter->convert("file", "ogg");
+$converter->convert("fileName", "ogg");
 $converter->save();
 
