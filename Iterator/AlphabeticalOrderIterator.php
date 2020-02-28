@@ -9,6 +9,12 @@ class AlphabeticalOrderIterator implements \Iterator {
 	private $position = 0;
 	private $reverse = false;
 
+
+	public function __construct($collection, $reverse = false) {
+		$this->collection = $collection;
+		$this->reverse = $reverse;
+	}
+
 	/**
 	 * @inheritDoc
 	 */
