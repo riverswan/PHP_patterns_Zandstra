@@ -7,18 +7,14 @@ namespace app\Mediator;
 class BaseComponent {
 	protected $mediator;
 
-	/**
-	 * BaseComponent constructor.
-	 * @param $mediator
-	 */
-	public function __construct(MediatorInterface $mediator) {
+	public function __construct(MediatorInterface $mediator = null) {
 		$this->setMediator($mediator);
 	}
 
 	/**
 	 * @param MediatorInterface $mediator
 	 */
-	public function setMediator(MediatorInterface $mediator): void {
+	public function setMediator(MediatorInterface $mediator = null): void {
 		$this->mediator = $mediator;
 	}
 
