@@ -4,7 +4,7 @@
 namespace app\Mediator;
 
 
-class ConcreteMediatorInterface implements MediatorInterface {
+class ConcreteMediator implements MediatorInterface {
 	private $component1;
 	private $component2;
 
