@@ -20,9 +20,11 @@ class Page {
 
 		$renderer = $factory->getRenderer();
 
-		return $renderer->render($pageTemplate->getTemplateString(), [
-			'title' => $this->title,
-			'content' => $this->content
-		]);
+		return $renderer->render(
+			$pageTemplate->getTemplateString(), [
+				'title' => $this->title,
+				'content' => $this->content
+			]
+		);
 	}
 }

@@ -18,6 +18,7 @@
   "require": {
     "ext-pdo": "*",
     "ext-mbstring": "*",
-    "ext-readline": "*"
+    "ext-readline": "*",
+    "squizlabs/php_codesniffer": "3.*"
   }
 }
